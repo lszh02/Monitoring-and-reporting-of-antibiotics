@@ -170,7 +170,7 @@ def input_diagnosis():
 
 if __name__ == '__main__':
     # 打开文件，获取sheet3
-    excel_path = r'D:\张思龙\药事\抗菌药物监测\2022年\2022年3月'
+    excel_path = r'D:\药事\抗菌药物监测\2022年\2022年3月'
     file_name = "2022年3月急诊处方点评.xls"
     worksheet = read_excel(rf"{excel_path}\{file_name}")
     print(rf"已打开工作表：{excel_path}\{file_name},获取sheet3")
