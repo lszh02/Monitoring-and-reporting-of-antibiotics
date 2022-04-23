@@ -77,7 +77,7 @@ def update_drug_dict():
 
 if __name__ == '__main__':
     # 打开文件，获取sheet页
-    excel_path = r'D:\张思龙\药事\抗菌药物监测\2022年'
+    excel_path = r'D:\药事\抗菌药物监测\2022年'
     file_name = "住院抗菌药物使用情况查询（第四季度）2021.xls"
     worksheet = read_excel(rf"{excel_path}\{file_name}")
     print(rf"已打开工作表：{excel_path}\{file_name},获取sheet")
